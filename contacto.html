@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=400, initial-scale=1, maximum-scale=1">
+    <title>Estudio BCN</title>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/estudio.css"/>
+</head>
+<body>
+<header class="header-main">
+    <figure class="header-image">
+        <img src="imagenes/logoBCN.png" alt="logo bcn"/>
+    </figure>
+</header>
+<nav class="main-menu">
+    <ul class="main-menuList">
+        <li class="main-menuItem"><a href="index.html">Home</a></li>
+        <li class="main-menuItem"><a href="quienes.html">Quienes Somos</a></li>
+        <li class="main-menuItem"><a href="trabajos.html">Trabajos</a></li>
+        <li class="main-menuItem">Contacto</li>
+    </ul>
+</nav>
+<section class="section-main">
+    <div class="centrar">
+        <div class="section-form">
+            <h2 class="form-title">Formulario de Contacto</h2><br/>
+            <br/>
+                 <form action="php/contactos.php" method="POST" class="form-contact">
+                      <span class="texto">Nombre:</span> <input type="text" name="nombre" id="nombre" required="require" class="cont" ><br/>
+                      <br/>
+                      <span class="texto">Apellido:</span> <input type="text" name="apellido" id="apellido" required="require" class="cont" ><br/>
+                      <br/>
+                      <span class="texto">Email:</span> <input type="email" name="correo" id="correo" required="require" class="cont" ><br/>
+                      <br/>
+                      <textarea name="comentario" id="comentario" cols="40" rows="10" class="text-area" placeholder="Escriba su comentario aqui..."></textarea><br/>
+                      <br/>
+                      <input type="submit" value="Enviar" class="boton" ><br/>
+                      <br/>
+                 </form>
+         </div>
+    </div>
+</section>
+<footer class="footer-main">
+    <?php include "php/pie.php"; ?>
+</footer>
+</body>
+</html>
