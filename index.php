@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=400, initial-scale=1, maximum-scale=1">    <title>Estudio BCN</title>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/estudio.css"/>
+</head>
+<body>
+<header class="header-main">
+    <figure class="header-image">
+        <img src="imagenes/logoBCN.png" alt="logo bcn"/>
+    </figure>
+</header>
+<nav class="main-menu">
+    <ul class="main-menuList">
+        <li class="main-menuItem">Home</li>
+        <li class="main-menuItem"><a href="quienes.php">Quienes Somos</a></li>
+        <li class="main-menuItem"><a href="trabajos.php">Trabajos</a></li>
+        <li class="main-menuItem"><a href="contacto.php">Contacto</a></li>
+    </ul>
+</nav>
+<section class="section-main">
+    <article class="section-article">
+
+    </article>
+</section>
+<footer class="footer-main">
+    <?php include "php/pie.php"; ?>
+</footer>
+</body>
+</html>

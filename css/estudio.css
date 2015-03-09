@@ -1,0 +1,129 @@
+/*media-query*/
+@viewport{
+    zoom: 1.0;
+    width: device-width;
+}
+/*HEADER*/
+.header-main{
+    background-color: #000000;
+}
+.header-image{
+    background-color: #000000;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+/*NAV*/
+a{
+    
+    text-decoration: none;
+}
+.main-menu{
+    background-color: #c0c0c0;
+    margin: 0 auto;
+    padding: 0.1em;
+}
+.main-menuList{
+    list-style: none;
+    margin: 0.5px;
+    text-align: center;
+}
+.main-menuItem{
+    background-color: midnightblue;
+    border-radius: 0.2em;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    margin:  0.4em 0.4em;
+    padding: 0.4em 1em;
+}
+/*SECTION*/
+.section-main{
+    background-image: url("../imagenes/gris.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 1em 0;
+}
+.centrar{
+    text-align: center;
+}
+.work-item{
+    display: inline-block;
+    margin-right: 1.8em;
+    margin-bottom: 1.8em;
+}
+.work-imageContainer{
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+}
+
+/*SECTION-FORM*/
+.section-form{
+    background-color: transparent;
+    display: inline-block;
+    padding: 0.5em 1.5em;
+}
+.form-title {
+    color: white;
+}
+.texto{
+    color: white;
+    font-weight: bold;
+    float: left;
+}
+.cont{
+    border-radius: 0.5em;
+    float: right;
+}
+.text-area{
+    border-radius: 0.5em;
+    float: right;
+}
+.boton{
+    border-radius: 0.5em;
+    font-weight: bold;
+    margin: 1em 0 0 0;
+    float: right;
+
+}
+.form-title{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+/*ARTICLE*/
+.article-title{
+    color: white;
+    text-align: center;
+}
+.article-p{
+    color: white;
+    text-align: center;
+}
+/*FOOTER*/
+.footer-main{
+    background-color: deepskyblue;
+    height: 6em;
+    margin: 0 auto;
+    padding: 0;
+    text-align: right;
+}
+.design-by{
+    font-weight: bold;
+    margin: 0;
+    opacity: 0.7;
+    padding: 4.5em 0 0 0;
+    text-align: center;
+    vertical-align: bottom;
+}
+.design-by:after{
+    content: '--';
+}
+.design-by:before{
+    content: '--';
+}
